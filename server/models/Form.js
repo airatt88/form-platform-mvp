@@ -1,5 +1,5 @@
 import { DataTypes } from "sequelize";
-import sequelize from "./sequelize.js"; // теперь безопасно
+import sequelize from "./sequelize.js";
 
 const Form = sequelize.define("Form", {
   title: {
